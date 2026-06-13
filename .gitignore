@@ -1,0 +1,55 @@
+# Python caches and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest_tmp/
+pytest-cache-files-*/
+
+# Scratch scripts from local experiments
+/test.py
+/test_db.py
+/test_fetch.py
+/src/test_*.py
+/src/`
+
+# Runtime logs and generated results
+logs/
+results/
+outputs/
+resume_project_update/
+
+# Local datasets and personal face images
+dataset/train/
+dataset/test/
+face_samples/
+profile_pics/
+
+# Trained model artifacts and large/private model files
+models/*.pkl
+models/*.joblib
+models/*.npy
+models/*.npz
+models/*.json
+models/*.pb
+models/facenet/
+
+# Local database/runtime files
+*.db
+*.sqlite
+*.sqlite3
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Environment and editor files
+.env
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
