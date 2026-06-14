@@ -10,6 +10,8 @@ Criminal Identification System is a Python desktop application that identifies r
 
 The project was built as a major academic project to demonstrate a complete end-to-end face-recognition workflow for law-enforcement-style identification scenarios.
 
+For the complete file-by-file explanation, workflow details, database tables, algorithms, model artifacts, and resume-ready project description, see [PROJECT_DOCUMENTATION.md](PROJECT_DOCUMENTATION.md).
+
 ## My Role
 
 As **Team Lead**, I handled the system design, module coordination, implementation planning, debugging, and integration of the complete workflow from criminal registration to final identification. I also worked on improving the preprocessing, face alignment, embedding extraction, PCA/ACO feature optimization, MLP classification, database connection, and GUI flow.
