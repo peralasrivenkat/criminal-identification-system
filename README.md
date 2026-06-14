@@ -12,6 +12,8 @@ The project was built as a major academic project to demonstrate a complete end-
 
 For the complete file-by-file explanation, workflow details, database tables, algorithms, model artifacts, and resume-ready project description, see [PROJECT_DOCUMENTATION.md](PROJECT_DOCUMENTATION.md).
 
+For the complete repository inventory, including included files and local-only private/generated files, see [docs/FILE_INVENTORY.md](docs/FILE_INVENTORY.md).
+
 ## My Role
 
 As **Team Lead**, I handled the system design, module coordination, implementation planning, debugging, and integration of the complete workflow from criminal registration to final identification. I also worked on improving the preprocessing, face alignment, embedding extraction, PCA/ACO feature optimization, MLP classification, database connection, and GUI flow.
@@ -157,11 +159,20 @@ Criminal_Identification_System/
 |   |-- classifier.py
 |   `-- pipeline.py
 |-- models/
+|   |-- README.md
 |   `-- train_models.py
 |-- scripts/
 |   `-- repair_face_crops.py
 |-- tests/
+|-- dataset/
+|   |-- README.md
+|   |-- train/README.md
+|   `-- test/README.md
+|-- logs/README.md
+|-- outputs/README.md
+|-- results/README.md
 `-- docs/
+    |-- FILE_INVENTORY.md
     `-- images/
 ```
 

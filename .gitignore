@@ -13,14 +13,22 @@ pytest-cache-files-*/
 /src/`
 
 # Runtime logs and generated results
-logs/
-results/
-outputs/
+logs/*
+!logs/README.md
+results/*
+!results/README.md
+outputs/*
+!outputs/README.md
+!outputs/unknown_faces/
+outputs/unknown_faces/*
+!outputs/unknown_faces/.gitkeep
 resume_project_update/
 
 # Local datasets and personal face images
-dataset/train/
-dataset/test/
+dataset/train/*
+!dataset/train/README.md
+dataset/test/*
+!dataset/test/README.md
 face_samples/
 profile_pics/
 
@@ -31,7 +39,8 @@ models/*.npy
 models/*.npz
 models/*.json
 models/*.pb
-models/facenet/
+models/facenet/*
+!models/facenet/README.md
 
 # Local database/runtime files
 *.db
